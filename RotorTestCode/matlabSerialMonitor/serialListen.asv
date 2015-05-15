@@ -1,0 +1,8 @@
+close all; clear all; clc; 
+s = serial('COM5');%Set litening comm port
+s.InputBufferSize = 1;
+set(s, 'FlowControl', 'none');
+set(s, 'BaudRate', 9600);
+set(s, 'Parity', 'none');
+set(s, 'DataBits', 8);
+set(s, 'StopBit', 1);

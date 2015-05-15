@@ -1,0 +1,23 @@
+Software
+	- Implement clean ACCEL orientation Estimation
+	- Implement clean GYRO orientation Estimation
+	- Explore/Implment BARO elivation calculation
+	- Implement clean MAG heading estimation
+	- Implement GPS on atmega
+	- Implement BT connection for inflight debugging
+	- Implement Flyaway prevention 
+		- Shut down
+		- Safe Decent
+		- Return to home + safe decent
+	- Implement pitch/roll gimbal for FPV/Recording 
+	- Implement noncritical offload onto rPi
+	- Optimize (see profiling)
+Hardware
+	- rPi integration and mounting
+	- Attach BT module
+	- design and route custom PCB and get printed
+	- FPV cam and antenna module
+	- OSD for atleast batt level
+	- Explore moving to ARM controller
+
+

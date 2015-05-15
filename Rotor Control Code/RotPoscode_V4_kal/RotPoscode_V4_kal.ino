@@ -11,7 +11,6 @@
 #include <Kalman.h>
 
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
-
 Adafruit_10DOF                dof   = Adafruit_10DOF();
 Adafruit_LSM303_Accel_Unified accel = Adafruit_LSM303_Accel_Unified(30301);
 Adafruit_LSM303_Mag_Unified   mag   = Adafruit_LSM303_Mag_Unified(30302);
@@ -184,10 +183,11 @@ void initSensors()
 //            \        /
 //             \      /
 //              \    /
-//                ^
+//                
 //                |
+//                V
 //            IMU Y Axis
-//            IMU X Axis -->
+//            IMU X Axis < --
 //            IMU Z Axis: CCW
 
 
